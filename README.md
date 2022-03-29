@@ -4,6 +4,11 @@
 We assume that there is a data folder and that the csv files 'ds_test_eval_100k.csv' and 'ds_test_train_1M.csv' 
 have been downloaded in the folder data.
 
+### Requirements
+- python~=3.9.7
+- pandas~=1.2.3
+- scikit-learn~=1.0.2
+
 ### Code Organisation
 The file data_manage.py contains some tools used for manipulating and preprocessing
 the data.
