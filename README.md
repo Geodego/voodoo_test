@@ -1,7 +1,8 @@
 # Autobid LTV estimation
 
 ### Data 
-We assume that the csv files 'ds_test_eval_100k.csv' and 'ds_test_train_1M.csv' have been downloaded in the folder data.
+We assume that there is a data folder and that the csv files 'ds_test_eval_100k.csv' and 'ds_test_train_1M.csv' 
+have been downloaded in the folder data.
 
 ### Code Organisation
 The file data_manage.py contains some tools used for manipulating and preprocessing
