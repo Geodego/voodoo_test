@@ -14,11 +14,11 @@ The file data_manage.py contains some tools used for manipulating and preprocess
 the data.
 
 The jupyter notebook autobid contains the different steps of the EDA, pre-processing,
-model selection, model calibration and testing. All the steps are details and
+model selection, model calibration and testing. All the steps are detailed and
 commented in the notebook.
 
 ### Analysis overview
-We initially perform an EDA to know the data and see what pre-processing needs to be done.
+We initially perform an EDA to get to know the data better and see what pre-processing steps needs to be done.
 We analyse the average results accross the different granularities and the corresponding
 features. That analysis suggest that the null values should be filled using the average of the corresponding 
 column for revenue features and the average of the corresponding raw for installs features.
@@ -35,7 +35,7 @@ We test the model on the eval data and find a r2 of 0.35
 ### Further experiments:
 - Given the size of the dataset, it would have been interesting to explore Neural Networks. 
 - It would have been interested to fine-tune other parameters for the LightGBM
-- It could be interesting to see if by reducing the number of features we could get some improvement:
+- It could be interesting to see if by reducing the number of features, we could get some improvements:
     - either by grouping some columns and average them
     - or by performing some PCA before training the model
 
